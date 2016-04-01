@@ -5,7 +5,8 @@ class Api extends CI_Controller {
 
 	public function index() {
 		$this->load->library('GetResponse');
-		$api = new GetResponse('929e79b37d3acd438f49957aab51521b'); // Testing Account
+		// GetResponse API key http://www.getresponse.com/my_api_key.html
+		$api = new GetResponse('## API KEY GOES HERE ##'); 
 
 		// Test to make sure connection is working
 		echo $api->ping(); // Output: "pong"

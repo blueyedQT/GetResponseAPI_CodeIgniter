@@ -19,7 +19,7 @@ class GetResponse
      * http://www.getresponse.com/my_api_key.html
      * @var string
      */
-    public $apiKey = '929e79b37d3acd438f49957aab51521b';
+    public $apiKey = '## API KEY GOES HERE ##';
     
     /**
      * GetResponse API URL
